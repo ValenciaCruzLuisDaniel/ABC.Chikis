@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="vocales">
+
+        <item>@drawable/a</item>
+        <item>@drawable/e</item>
+        <item>@drawable/i</item>
+        <item>@drawable/o</item>
+        <item>@drawable/u</item>
+        <item>@drawable/a</item>
+        <item>@drawable/e</item>
+        <item>@drawable/i</item>
+        <item>@drawable/o</item>
+        <item>@drawable/u</item>
+    </array>
+
+
+
+</resources>

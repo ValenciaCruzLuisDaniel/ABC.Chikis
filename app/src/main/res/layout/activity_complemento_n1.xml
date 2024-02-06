@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    tools:context=".complementoN1"
+
+    >
+
+
+    <Button
+        android:id="@+id/vocal_i"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:background="@drawable/i"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/vocal_u"
+        app:layout_constraintTop_toBottomOf="@+id/vocal_e"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <Button
+        android:id="@+id/vocal_e"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:background="@drawable/e"
+        app:layout_constraintBottom_toTopOf="@+id/vocal_i"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toEndOf="@+id/vocal_a"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <Button
+        android:id="@+id/vocal_u"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:background="@drawable/u"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/vocal_i"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vocal_o"
+        app:layout_constraintVertical_bias="0.905" />
+
+
+    <Button
+
+        android:id="@+id/vocal_a"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:background="@drawable/a"
+        android:drawablePadding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021"
+        />
+
+    <Button
+        android:id="@+id/vocal_o"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:background="@drawable/o"
+        app:layout_constraintBottom_toTopOf="@+id/vocal_u"
+        app:layout_constraintEnd_toStartOf="@+id/vocal_a"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+</androidx.constraintlayout.widget.ConstraintLayout>

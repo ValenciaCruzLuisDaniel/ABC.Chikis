@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "211323279587",
+    "project_id": "chikis-93ccf",
+    "storage_bucket": "chikis-93ccf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211323279587:android:2a8cef28673d073d9fcdd6",
+        "android_client_info": {
+          "package_name": "com.example.abcchikis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211323279587-nd595a7phoghubh7k6368e37ubbirjfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkVrX4LdXOFKmjpLuVybDNrk4eeXiH0Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211323279587-nd595a7phoghubh7k6368e37ubbirjfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
